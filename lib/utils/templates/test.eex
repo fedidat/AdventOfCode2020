@@ -1,0 +1,13 @@
+defmodule Aoc20.Day<%= day %>Test do
+  @moduledoc false
+
+  use ExUnit.Case
+
+  test "Day<%= day %>-1" do
+    assert Aoc20.Day<%= day %>.part1() == nil
+  end
+
+  test "Day<%= day %>-2" do
+    assert Aoc20.Day<%= day %>.part2() == nil
+  end
+end
