@@ -1,0 +1,14 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        // Running unit tests
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug tests on Linux",
+            "program": "./.build/x86_64-unknown-linux-gnu/debug/swiftPackageTests.xctest",
+            "preLaunchTask": "swift-build-tests"
+        }
+    ]
+}
