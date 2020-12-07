@@ -1,47 +1,30 @@
 import XCTest
 import class Foundation.Bundle
+@testable import swift
 
 final class swiftTests: XCTestCase {
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
+    func test_sample() throws {
+      let input: [String] =
+        try String(contentsOfFile: "Input/day7-sample.txt", encoding: .utf8)
+              .trimmingCharacters(in: .whitespacesAndNewlines)
+              .components(separatedBy: .newlines)
 
-        // Some of the APIs that we use below are available in macOS 10.13 and above.
-        guard #available(macOS 10.13, *) else {
-            return
-        }
-
-        let fooBinary = productsDirectory.appendingPathComponent("swift")
-
-        let process = Process()
-        process.executableURL = fooBinary
-
-        let pipe = Pipe()
-        process.standardOutput = pipe
-
-        try process.run()
-        process.waitUntilExit()
-
-        let data = pipe.fileHandleForReading.readDataToEndOfFile()
-        let output = String(data: data, encoding: .utf8)
-
-        XCTAssertEqual(output, "Hello, world!\n")
+        XCTAssertEqual(part1(rules: input), 4)
+        XCTAssertEqual(part2(rules: input), 32)
     }
 
-    /// Returns path to the built products directory.
-    var productsDirectory: URL {
-      #if os(macOS)
-        for bundle in Bundle.allBundles where bundle.bundlePath.hasSuffix(".xctest") {
-            return bundle.bundleURL.deletingLastPathComponent()
-        }
-        fatalError("couldn't find the products directory")
-      #else
-        return Bundle.main.bundleURL
-      #endif
+    func test_solution() throws {
+      let input: [String] =
+        try String(contentsOfFile: "Input/day7.txt", encoding: .utf8)
+              .trimmingCharacters(in: .whitespacesAndNewlines)
+              .components(separatedBy: .newlines)
+
+        XCTAssertEqual(part1(rules: input), 238)
+        XCTAssertEqual(part2(rules: input), 82930)
     }
 
     static var allTests = [
-        ("testExample", testExample),
+        ("test_sample", test_sample),
+        ("test_solution", test_solution),
     ]
 }
