@@ -12,8 +12,9 @@ These will be my solutions for [AdventOfCode](https://adventofcode.com/) 2020. T
 - Day 6: Typscript and Deno. This is good, perhaps better than Java. Strong typing, syntax that makes sense, easy prototyping almost to the level of Python. Install [Deno](https://deno.land/manual@v1.5.4/getting_started/installation) and run `deno test --allow-read`. Regarding Deno it's a better experience than node.js from the standard library alone, but I've barely tried all the features.
 - Day 7: Swift. It was hard to setup for Linux but doable, at least Apple made an effort. And it works rather well, although somewhat Go-like in syntax. The package system is nice.
 - Day 9: Go. Just as horrible as I remembered. No exceptions, no generics (and no OOP as far as I'm concerned), extremely limited standard library, very opinionated and limited syntax... Sure, it has some amazing aspects like green threads and build time, but how would anyone accept to work with such limited tooling?
+- Day 10: Scala 3 (dotty) with SBT. I didn't get it last year but I'm really digging it now! It's a much more productive Java without going overboard like Kotlin. And I barely scratched the surface as I had no time to explore parallelism. I remember SBT being painful but I now realize it is fairly similar to Gradle but with Scala itself instead of a minor scripting language like Groovy.
 
-Lined up: Scala, C#, Perl, Bash, Lua, Racket, Common Lisp, F# and Haskell.
+Lined up: C#, Perl, Bash, Lua, Racket, Common Lisp, F# and Haskell.
 
 ### Incremental problems
 
