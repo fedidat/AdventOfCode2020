@@ -28,9 +28,11 @@ defmodule Aoc20.Day1 do
     |> Enum.find(fn x -> Enum.find(input, fn y -> x + y + first == 2020 end) end)
     third = input
     |> Enum.find(fn x -> x + first + second == 2020 end)
-    IO.inspect(first * second * third)
     first * second * third
   end
 
-  def run, do: {part1()}
+  def start(_type, _args) do
+    IO.puts("Part 1: #{part1()}")
+    IO.puts("Part 2: #{part2()}")
+  end
 end
