@@ -1,0 +1,56 @@
+#!/usr/bin/perl
+use 5.012;
+use strict;
+use warnings;
+
+open(FILE, "day12.txt") or die;
+my @input = <FILE>;
+close FILE;
+my @navigations = map {[/^(\w)(\d+)$/]} (@input);
+
+say("Part 1 result: ", move(0, 1,  0));
+say("Part 2 result: ", move(1, 10, 1));
+
+sub move {
+    my ($part, $waypointx, $waypointy) = @_;
+    my @x = (0, $waypointx);
+    my @y = (0, $waypointy);
+    my %movetypes = (
+        'N' => sub {
+            $y[$part] += $_[0];
+        },
+        'E' => sub {
+            $x[$part] += $_[0];
+        },
+        'S' => sub {
+            $y[$part] -= $_[0];
+        },
+        'W' => sub {
+            $x[$part] -= $_[0];
+        },
+        'L' => sub {
+            ($x[1], $y[1]) = rotate($_[0], $x[1], $y[1]);
+        },
+        'R' => sub {
+            ($x[1], $y[1]) = rotate(-$_[0], $x[1], $y[1]);
+        },
+        'F' => sub {
+            $x[0] += $_[0] * $x[1]; 
+            $y[0] += $_[0] * $y[1];
+        }
+    );
+
+    foreach ( @navigations ) {
+        $movetypes{$_->[0]}($_->[1]);
+    }
+
+    return abs($x[0]) + abs($y[0]);
+}
+
+sub rotate {
+    my ($degrees, $radx, $rady) = @_;
+    my $type = ($degrees / 90) % 4;
+    my @directions = ([1,0], [0,1], [-1,0], [0,-1]);
+    my ($rotatex, $rotatey) = @{$directions[$type]};
+    return $rotatex * $radx - $rotatey * $rady, $rotatex * $rady + $rotatey * $radx; 
+}

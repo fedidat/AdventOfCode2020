@@ -14,8 +14,9 @@ These will be my solutions for [AdventOfCode](https://adventofcode.com/) 2020. T
 - Day 9: Go. Just as horrible as I remembered. No exceptions, no generics (and no OOP as far as I'm concerned), extremely limited standard library, very opinionated and limited syntax... Sure, it has some amazing aspects like green threads and build time, but how would anyone accept to work with such limited tooling?
 - Day 10: Scala 3 (dotty) with SBT. I didn't get it last year but I'm really digging it now! It's a much more productive Java without going overboard like Kotlin. And I barely scratched the surface as I had no time to explore parallelism. I remember SBT being painful but I now realize it is fairly similar to Gradle but with Scala itself instead of a minor scripting language like Groovy.
 - Day 11: C#. Wow it really fell behind Java. You can say it tried to copy it but it didn't go well. That way really painful. In addition, the .sln and .csproj formats are awful and mandatory and LINQ requires unpacking custom objects. I see no future for this language.
+- Day 12: Perl. Very flexible scripting language, although it may take some to get used to reading it, it's hard to decipher... CPAN is solid but I hope to never need to diagnose any issue with it.
 
-Lined up: Perl, Bash, Lua, Racket, Common Lisp, F# and Haskell.
+Lined up: Bash, Lua, Racket, Common Lisp, F# and Haskell.
 
 ### Incremental problems
 
