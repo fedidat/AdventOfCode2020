@@ -46,10 +46,14 @@ Wow it really fell behind Java. You can say it tried to copy it but it didn't go
 
 ### Day 12: Perl
 
-Very flexible scripting language, although it may take some to get used to reading it, it's hard to decipher... CPAN is solid but I hope to never need to diagnose any issue with it.
+Very flexible scripting language, although it may take some time to get used to reading it, it's hard to decipher... CPAN is solid but I hope to never need to diagnose any issue with it.
+
+### Day 13: Dlang
+
+Another exciting language. It feels oddly close to Rust, I suppose as another system language, but with none of the safety features and much more restricted syntactic sugar. It also feels related to Scala through the pipe design. The learning curve may be slightly steep however, and the package manager is mundane json.
 
 ## Coming up
 
 Lined up: Bash, Lua, Racket, Common Lisp, F# and Haskell.
 
-More in case no problems build up: C, PHP, JavaScript, Dlang, Ruby, Julia, Awk, Ocaml, Clojure, R/Processing.
+More in case no problems build up: C, PHP, JavaScript, Ruby, Julia, Awk, Ocaml, Clojure, R/Processing.
