@@ -52,8 +52,12 @@ Very flexible scripting language, although it may take some time to get used to 
 
 Another exciting language. It feels oddly close to Rust, I suppose as another system language, but with none of the safety features and much more restricted syntactic sugar. It also feels related to Scala through the pipe design. The learning curve may be slightly steep however, and the package manager is mundane json.
 
+### Day 14: Lua
+
+Cool scripting language, but unlike Perl it actually feels old and is overdue a revamp. The standard library is dangerously lean and the syntax feels limited like Go or Ruby. Anyway, nice for prototyping or for learning but inferior to Python and Perl.
+
 ## Coming up
 
-Lined up: Bash, Lua, Racket, Common Lisp, F# and Haskell.
+Lined up: Bash, Racket, Common Lisp, F# and Haskell.
 
 More in case no problems build up: C, PHP, JavaScript, Ruby, Julia, Awk, Ocaml, Clojure, R/Processing.
