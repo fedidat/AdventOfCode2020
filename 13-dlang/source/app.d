@@ -1,4 +1,4 @@
-module part1;
+module day13;
 
 import std.stdio : writeln;
 import std.array : split, assocArray;

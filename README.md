@@ -8,6 +8,10 @@ These will be my solutions for [AdventOfCode](https://adventofcode.com/) 2020. T
 
 Nope, this is basically Ruby on Erlang and I dislike Ruby.
 
+### Day 2: Kotlin
+
+As a Java programmer that has been looking towards Kotlin for years, this is... special. But by want of modernizing Java, I think this goes too far. The syntax feels a bit inconsistent, although I may be talking out of inexperience.
+
 ### Day 3: Java 15
 
 This is my home language and I really enjoy it, the syntax is so consistent. Java 15 is really powerful as well, too bad half the world is stuck on Java 8.
@@ -55,9 +59,3 @@ Another exciting language. It feels oddly close to Rust, I suppose as another sy
 ### Day 14: Lua
 
 Cool scripting language, but unlike Perl it actually feels old and is overdue a revamp. The standard library is dangerously lean and the syntax feels limited like Go or Ruby. Anyway, nice for prototyping or for learning but inferior to Python and Perl.
-
-## Coming up
-
-Lined up: Bash, Racket, Common Lisp, F# and Haskell.
-
-More in case no problems build up: C, PHP, JavaScript, Ruby, Julia, Awk, Ocaml, Clojure, R/Processing.
