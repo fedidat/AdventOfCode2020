@@ -59,3 +59,20 @@ Another exciting language. It feels oddly close to Rust, I suppose as another sy
 ### Day 14: Lua
 
 Cool scripting language, but unlike Perl it actually feels old and is overdue a revamp. The standard library is dangerously lean and the syntax feels limited like Go or Ruby. Anyway, nice for prototyping or for learning but inferior to Python and Perl.
+
+### Day 15: PHP
+
+I'm disappointed the problem wasn't more difficult to test interesting features. It's actually decent, although I've worked with large PHP applications and I know the pain comes later. I also wish I had the occasion to try out Hack. Anyway, it's still PHP, it can't be that good right?
+
+## Coming up
+
+Criteria: Not too ancient (Algol, Fortran), unpopular (Visual Basic, Eiffel), specific (HCL, SQL), tedious (APL, Assembly), duplicate (C/C++, JS/TS) or not really a language (sed, SQL).
+
+General purpose: Groovy, PHP/Hack, Ruby, Dart, Smalltalk/Pharo
+Scripting: Aws, Bash
+Processing languages: Julia, R/Processing
+Lisps: Clojure, Common Lisp, Fennel
+Purely functional: Haskell, Scheme/Racket
+ML-like languages: Ocaml/ReasonML, Elm, F#
+
+To be classified: Erlang, Crystal, Haxe, Idris, J, Raku, Unison, Factor, Prolog and many more.
