@@ -68,9 +68,13 @@ I'm disappointed the problem wasn't more difficult to test interesting features.
 
 It feels weird to use AWK as a programming language (as intended really), but it's so powerful for the right purpose. It's excellent for very small prototyping as long as you're dealing with a parsable file.
 
+### Day 17: Haskell
+
+Haskell is famous for its purity, so as a beginner I've had to look at solutions for this algorithmically trivial problem. I would need much more practice to feel comfortable. The ecosystem is also not the most intuitive: ghc, ghci, runghc, cabal, stack, etc. It didn't help that haskell.org was down.
+
 ## Coming up
 
-Criteria: Not too ancient (Algol, Fortran), unpopular (Visual Basic, Eiffel), specific (HCL, SQL), tedious (APL, Assembly), duplicate (C/C++, JS/TS) or not really a language (sed, SQL).
+Criteria: Not too ancient (Algol, Fortran), unpopular (Visual Basic, Eiffel), specific (HCL, SQL), tedious (APL, Brainfuck), unreadable (J, Assembly), duplicate (C/C++, JS/TS) or not really a language (sed, SQL).
 
 General purpose: Groovy, PHP/Hack, Ruby, Dart, Smalltalk/Pharo
 Scripting: Bash
@@ -79,4 +83,4 @@ Lisps: Clojure, Common Lisp, Fennel
 Purely functional: Haskell, Scheme/Racket
 ML-like languages: Ocaml/ReasonML, Elm, F#
 
-To be classified: Erlang, Crystal, Haxe, Idris, J, Raku, Unison, Factor, Prolog/Logtalk, Pony, Icon, CoffeeScript, Wren, Self, Io, Inform, Ceylon, Ceu, Little, Dyon, Gluon.
+To be classified: Erlang, Crystal, Haxe, Idris, Raku, Unison, Factor, Prolog/Logtalk, Pony, Icon, CoffeeScript, Wren, Self, Io, Inform, Ceylon, Ceu, Little, Dyon, Gluon.
