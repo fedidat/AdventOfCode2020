@@ -76,6 +76,10 @@ Haskell is famous for its purity, so as a beginner I've had to look at solutions
 
 Scheme is so very different from everything, but it was very helpful today since I had to play with mathematical expressions and parenthesis. It has its uses but I'm not sure I'd use it for general purpose programming. I should do SICP.
 
+### Day 19: Ruby
+
+I still don't like anything about Ruby, it's a bad Python.
+
 ## Coming up
 
 Criteria: Not too ancient (Algol, Fortran), unpopular (Visual Basic, Eiffel), specific (HCL, SQL), tedious (APL, Brainfuck), unreadable (J, Assembly), duplicate (C/C++, JS/TS) or not really a language (sed, SQL).
