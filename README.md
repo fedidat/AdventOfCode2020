@@ -80,15 +80,19 @@ Scheme is so very different from everything, but it was very helpful today since
 
 I still don't like anything about Ruby, it's a bad Python.
 
+### Day 20: Julia
+
+Not the fastest language but very powerful, although I only had time to look at a small subset of the features. This feels similar to Python but with MATLAB-like matrix manipulation.
+
 ## Coming up
 
 Criteria: Not too ancient (Algol, Fortran), unpopular (Visual Basic, Eiffel), specific (HCL, SQL), tedious (APL, Brainfuck), unreadable (J, Assembly), duplicate (C/C++, JS/TS) or not really a language (sed, SQL).
 
-General purpose: Groovy, Ruby, Dart, Smalltalk/Pharo
-Scripting: Bash
-Processing languages: Julia, R/Processing
-Lisps: Clojure, Common Lisp, Fennel
-Purely functional: 
-ML-like languages: Ocaml/ReasonML, Elm, F#
+- General purpose: Groovy, Dart, Smalltalk/Pharo
+- Scripting: Bash
+- Processing languages: R/Processing
+- Lisps: Clojure, Common Lisp, Fennel
+- Purely functional: 
+- ML-like languages: Ocaml/ReasonML, Elm, F#
 
 To be classified: Erlang, Crystal, Haxe, Idris, Raku, Unison, Factor, Prolog/Logtalk, Pony, Icon, CoffeeScript, Wren, Self, Io, Inform, Ceylon, Ceu, Little, Dyon, Gluon.
