@@ -84,11 +84,15 @@ I still don't like anything about Ruby, it's a bad Python.
 
 Not the fastest language but very powerful, although I only had time to look at a small subset of the features. This feels similar to Python but with MATLAB-like matrix manipulation.
 
+### Day 21: Dart
+
+Another language by Google, made for dummies. Failed JavaScript killer with ((slightly)) different goals than Go. It's like a weak and inconsistent Java. Do not recommend. Still better than Go.
+
 ## Coming up
 
 Criteria: Not too ancient (Algol, Fortran), unpopular (Visual Basic, Eiffel), specific (HCL, SQL), tedious (APL, Brainfuck), unreadable (J, Assembly), duplicate (C/C++, JS/TS) or not really a language (sed, SQL).
 
-- General purpose: Groovy, Dart, Smalltalk/Pharo
+- General purpose: Groovy, Smalltalk/Pharo
 - Scripting: Bash
 - Processing languages: R/Processing
 - Lisps: Clojure, Common Lisp, Fennel
