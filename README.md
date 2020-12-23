@@ -88,15 +88,12 @@ Not the fastest language but very powerful, although I only had time to look at 
 
 Another language by Google, made for dummies. Failed JavaScript killer with ((slightly)) different goals than Go. It's like a weak and inconsistent Java. Do not recommend. Still better than Go.
 
+### Day 22: Common Lisp
+
+Lisp makes it very hard to guess what works and what doesn't, I partly had to look at some solutions. The ecosystem is also not playing very nice, I used SBCL's script mode and print-debugging, and the error messages aren't the clearest, no line numbers or anything. However, the raw simplicity feels very powerful. I wish I could spend more time on a Lisp for a while.
+
 ## Coming up
 
-Criteria: Not too ancient (Algol, Fortran), unpopular (Visual Basic, Eiffel), specific (HCL, SQL), tedious (APL, Brainfuck), unreadable (J, Assembly), duplicate (C/C++, JS/TS) or not really a language (sed, SQL).
-
-- General purpose: Groovy, Smalltalk/Pharo
-- Scripting: Bash
-- Processing languages: R/Processing
-- Lisps: Clojure, Common Lisp, Fennel
-- Purely functional: 
+- General purpose: Groovy, Smalltalk, Erlang
+- Lisps: Clojure, Common Lisp
 - ML-like languages: Ocaml/ReasonML, Elm, F#
-
-To be classified: Erlang, Crystal, Haxe, Idris, Raku, Unison, Factor, Prolog/Logtalk, Pony, Icon, CoffeeScript, Wren, Self, Io, Inform, Ceylon, Ceu, Little, Dyon, Gluon.
