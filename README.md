@@ -92,8 +92,11 @@ Another language by Google, made for dummies. Failed JavaScript killer with ((sl
 
 Lisp makes it very hard to guess what works and what doesn't, I partly had to look at some solutions. The ecosystem is also not playing very nice, I used SBCL's script mode and print-debugging, and the error messages aren't the clearest, no line numbers or anything. However, the raw simplicity feels very powerful. I wish I could spend more time on a Lisp for a while.
 
+### Day 23: GNU Smalltalk
+
+I was curious about Smalltalk because this was a very influential language, inspiring most object-oriented languages that came after it. And indeed the class system influences all mechanics. But this opinionated language is now incredibly outdated, lacking any documentation, and beaten to pieces by Java or Typescript. So this is little more than a piece of history, maybe useful for legacy support. I also tried out Pharo but didn't find it superior to GNU Smalltalk.
+
 ## Coming up
 
-- General purpose: Groovy, Smalltalk, Erlang
-- Lisps: Clojure, Common Lisp
+- General purpose: Groovy
 - ML-like languages: Ocaml/ReasonML, Elm, F#
