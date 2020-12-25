@@ -94,7 +94,11 @@ Lisp makes it very hard to guess what works and what doesn't, I partly had to lo
 
 ### Day 23: GNU Smalltalk
 
-I was curious about Smalltalk because this was a very influential language, inspiring most object-oriented languages that came after it. And indeed the class system influences all mechanics. But this opinionated language is now incredibly outdated, lacking any documentation, and beaten to pieces by Java or Typescript. So this is little more than a piece of history, maybe useful for legacy support. I also tried out Pharo but didn't find it superior to GNU Smalltalk.
+I was curious about Smalltalk because this was a very influential language, inspiring most object-oriented languages that came after it. And indeed the class system influences all mechanics and its conceptual simplicity is very remarkable. But it's opinionated and feels dated, very lacking in documentation, and beaten to pieces in these regards by by Java or Typescript. At this stage, I feel that this is little more than a piece of history, maybe useful for legacy support. I also tried out Pharo but found it unintuitive and not superior to GNU Smalltalk in the problematic areas.
+
+### Day 24: Clojure
+
+Back from last year, and yet another Lisp after Racket and Common Lisp. Its syntax is very powerful but near unreadable if used to its full potential. I didn't use a lot of the Java interop or Leiningen, but I still lament the lack of a proper ecosystem for debugging and without directly using the REPL or print-debugging.
 
 ## Coming up
 
