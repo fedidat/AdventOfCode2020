@@ -100,7 +100,8 @@ I was curious about Smalltalk because this was a very influential language, insp
 
 Back from last year, and yet another Lisp after Racket and Common Lisp. Its syntax is very powerful but near unreadable if used to its full potential. I didn't use a lot of the Java interop or Leiningen, but I still lament the lack of a proper ecosystem for debugging and without directly using the REPL or print-debugging.
 
-## Coming up
+### Day 25: F\#
 
-- General purpose: Groovy
-- ML-like languages: Ocaml/ReasonML, Elm, F#
+I wanted to end this rollercoaster with the most niche possible type of language: ML-like. I settled on either Ocaml, Elm and F# and chose the latter as the most popular, modern and original. Since I already went over C#'s project setup on day 11, I thought I would try out F# Interactive (FSX), widely used for scripting or [testing](https://fsharpforfunandprofit.com/posts/low-risk-ways-to-use-fsharp-at-work-3/) and it's handy and elegant. Regarding the language, it is designed to be similar to Ocaml but ends up very close to Haskell, albeit slightly inferior in purity, types, flexibility and lacking inference.
+
+## This is it!!! See you in 2021
